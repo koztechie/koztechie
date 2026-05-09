@@ -2,6 +2,8 @@
   "en": {
     "lang": "en",
     "locale": "en_US",
+    "first_name": "Eugene",
+    "last_name": "Kozlovsky",
     "title": "Eugene Kozlovsky | Prompt Engineer & AI Systems Architect",
     "description": "Prompt Engineer × Systems Thinker. I structure ideas and direct AI to build software that solves real problems.",
     "init_label": "init",
@@ -15,6 +17,8 @@
   "uk": {
     "lang": "uk",
     "locale": "uk_UA",
+    "first_name": "Євген",
+    "last_name": "Козловський",
     "title": "Євген Козловський | Prompt Engineer та архітектор ШІ",
     "description": "Prompt Engineer × Systems Thinker. Структурую ідеї та спрямовую ШІ на створення програмного забезпечення.",
     "init_label": "ініціалізація",
@@ -28,6 +32,8 @@
   "es": {
     "lang": "es",
     "locale": "es_ES",
+    "first_name": "Eugene",
+    "last_name": "Kozlovsky",
     "title": "Eugene Kozlovsky | Prompt Engineer y arquitecto de IA",
     "description": "Prompt Engineer × Systems Thinker. Estructuro ideas and dirijo IA para construir software que resuelve problemas reales.",
     "init_label": "inicio",
@@ -41,6 +47,8 @@
   "de": {
     "lang": "de",
     "locale": "de_DE",
+    "first_name": "Eugene",
+    "last_name": "Kozlovsky",
     "title": "Eugene Kozlovsky | Prompt Engineer & KI-Systemarchitekt",
     "description": "Prompt Engineer × Systems Thinker. Ich strukturiere Ideen und leite KI, um Software zu bauen, die echte Probleme löst.",
     "init_label": "start",

@@ -1,12 +1,13 @@
 <div class="identity">
   <h2 class="t-label identity__prefix" aria-hidden="true">// {{ t.init_label | default('init') }}</h2>
 
-  <h1 class="t-name identity__name" id="site-name" aria-label="Eugene Kozlovsky">
-    <span class="glitch-target" data-text="Eugene">Eugene</span>
+  <h1 class="t-name identity__name" id="site-name">
+    <span class="glitch-target" data-text="{{ t.first_name | default('Eugene') }}">{{ t.first_name | default('Eugene') }}</span>
     <br>
     <span class="name-second-line">
-      <span class="glitch-target" data-text="Kozlovsky">Kozlovsky</span><span class="cursor-blink" aria-hidden="true">_</span>
+      <span class="glitch-target" data-text="{{ t.last_name | default('Kozlovsky') }}">{{ t.last_name | default('Kozlovsky') }}</span><span class="cursor-blink" aria-hidden="true">_</span>
     </span>
+    <span class="sr-only"> — {{ t.title | replace(t.first_name + " " + t.last_name + " | ", "") | replace(t.first_name + " " + t.last_name + " y ", "") | replace(t.first_name + " " + t.last_name + " та ", "") }}</span>
   </h1>
 
   <div class="accent-rule" aria-hidden="true"></div>

@@ -1,3 +1,4 @@
+{% set t = translations[lang] %}
 <!DOCTYPE html>
 <html lang="{{ lang | default('en') }}" dir="ltr">
 <head>
@@ -21,7 +22,6 @@
 
   <div class="site-wrapper">
     <main class="main-grid" id="main-content" role="main">
-      {% set t = translations[lang] %}
 
       <div class="block--name" data-reveal="0">
         {% include "components/identity.njk" %}
@@ -42,7 +42,6 @@
     </main>
 
     <footer class="site-footer" role="contentinfo">
-      {% set t = translations[lang] %}
       <span class="t-label">© {{ "now" | date("yyyy") }} Eugene Kozlovsky</span>
       <span class="t-label">{{ t.built_with | default('built with 11ty') }}</span>
     </footer>

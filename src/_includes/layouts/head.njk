@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <title>{{ t.title | default('koztechie — Eugene Kozlovsky') }}</title>
-<meta name="description" content="{{ description | default('Eugene Kozlovsky — Prompt Engineer × Systems Thinker. Building with AI at the edge of what\'s possible.') }}">
+<meta name="description" content="{{ t.description | default('Eugene Kozlovsky — Prompt Engineer × Systems Thinker. Building with AI at the edge of what\'s possible.') }}">
 <meta name="author" content="Eugene Kozlovsky">
 <meta name="theme-color" content="#08090d">
 <meta name="color-scheme" content="dark">
@@ -11,17 +11,17 @@
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://koztechie.pp.ua{{ page.url }}">
-<meta property="og:title" content="{% if title %}{{ title }} — koztechie{% else %}koztechie{% endif %}">
-<meta property="og:description" content="{{ description | default('Prompt Engineer × Systems Thinker.') }}">
+<meta property="og:title" content="{{ t.title | default('koztechie — Eugene Kozlovsky') }}">
+<meta property="og:description" content="{{ t.description | default('Prompt Engineer × Systems Thinker.') }}">
 <meta property="og:image" content="https://koztechie.pp.ua/assets/img/og-cover.jpg">
-<meta property="og:locale" content="{{ locale | default('en_US') }}">
+<meta property="og:locale" content="{{ t.locale | default('en_US') }}">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@koztechie">
 <meta name="twitter:creator" content="@koztechie">
-<meta name="twitter:title" content="koztechie — Eugene Kozlovsky">
-<meta name="twitter:description" content="Prompt Engineer × Systems Thinker.">
+<meta name="twitter:title" content="{{ t.title | default('koztechie — Eugene Kozlovsky') }}">
+<meta name="twitter:description" content="{{ t.description | default('Prompt Engineer × Systems Thinker.') }}">
 <meta name="twitter:image" content="https://koztechie.pp.ua/assets/img/og-cover.jpg">
 
 <!-- Canonical -->

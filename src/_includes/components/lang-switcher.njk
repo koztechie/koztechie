@@ -1,6 +1,6 @@
 <nav class="lang-switcher" aria-label="{{ t.lang_switcher_label | default('language') }}">
   <h3 class="t-label lang-switcher__label">// {{ t.lang_switcher_label | default('lang') }}</h3>
-  <ul class="lang-switcher__list" role="list">
+  <ul class="lang-switcher__list">
     <li><a href="/en/" class="lang-switcher__link{% if lang == 'en' %} is-active{% endif %}" hreflang="en" lang="en" aria-current="{% if lang == 'en' %}true{% else %}false{% endif %}">en</a></li>
     <li><a href="/uk/" class="lang-switcher__link{% if lang == 'uk' %} is-active{% endif %}" hreflang="uk" lang="uk" aria-current="{% if lang == 'uk' %}true{% else %}false{% endif %}">uk</a></li>
     <li><a href="/es/" class="lang-switcher__link{% if lang == 'es' %} is-active{% endif %}" hreflang="es" lang="es" aria-current="{% if lang == 'es' %}true{% else %}false{% endif %}">es</a></li>

@@ -21,7 +21,7 @@
   <div class="glow-strip glow-strip--right" aria-hidden="true"></div>
 
   <div class="site-wrapper">
-    <main class="main-grid" id="main-content" role="main">
+    <main class="main-grid" id="main-content">
 
       <div class="block--name" data-reveal="0">
         {% include "components/identity.njk" %}
@@ -41,7 +41,7 @@
 
     </main>
 
-    <footer class="site-footer" role="contentinfo">
+    <footer class="site-footer">
       <span class="t-label">© {{ "now" | date("yyyy") }} Eugene Kozlovsky</span>
       <span class="t-label">{{ t.built_with | default('built with 11ty') }}</span>
     </footer>

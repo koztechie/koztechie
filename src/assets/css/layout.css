@@ -294,10 +294,31 @@ body::before {
   opacity: 0.8;
 }
 
-.social__icon {
-  width: 1.25rem;
+.social__tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
   height: 1.25rem;
   flex-shrink: 0;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--color-cold-500);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xs, 2px);
+  background-color: rgba(0, 229, 204, 0.03);
+  transition:
+    color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out),
+    background-color var(--duration-fast) var(--ease-out);
+}
+
+.social__link:hover .social__tag,
+.social__link:focus-visible .social__tag {
+  color: var(--color-bg-void);
+  background-color: var(--color-cold-500);
+  border-color: var(--color-cold-500);
 }
 
 /* --- Lang switcher --- */

@@ -1,5 +1,5 @@
 <article class="manifesto" aria-labelledby="manifesto-label">
-  <span class="t-label manifesto__label" id="manifesto-label">// manifesto</span>
+  <span class="t-label manifesto__label" id="manifesto-label">// {{ t.manifesto_label | default('manifesto') }}</span>
   <div class="accent-rule" aria-hidden="true"></div>
   <p class="t-manifesto manifesto__text">
     {{ t.manifesto | default('') }}

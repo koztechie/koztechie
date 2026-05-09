@@ -49,16 +49,6 @@
   font-family: var(--font-mono);
 }
 
-/* --- Font loading performance: size-adjust prevents CLS --- */
-@font-face {
-  font-family: 'IBM Plex Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('IBM Plex Mono');
-  size-adjust: 100%;
-}
-
 /* Critical text visible immediately before font loads */
 .identity__name,
 .t-manifesto {

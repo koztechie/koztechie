@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>{% if title %}{{ title }} — koztechie{% else %}koztechie — Eugene Kozlovsky{% endif %}</title>
+<title>{{ t.title | default('koztechie — Eugene Kozlovsky') }}</title>
 <meta name="description" content="{{ description | default('Eugene Kozlovsky — Prompt Engineer × Systems Thinker. Building with AI at the edge of what\'s possible.') }}">
 <meta name="author" content="Eugene Kozlovsky">
 <meta name="theme-color" content="#08090d">

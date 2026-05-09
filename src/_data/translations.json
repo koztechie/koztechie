@@ -2,7 +2,7 @@
   "en": {
     "lang": "en",
     "locale": "en_US",
-    "title": "Eugene Kozlovsky — Prompt Engineer & Systems Thinker | koztechie",
+    "title": "Eugene Kozlovsky | Prompt Engineer & Systems Thinker — AI Architecture & LLM Orchestration",
     "description": "Prompt Engineer × Systems Thinker. I structure ideas and direct AI to build software that solves real problems.",
     "init_label": "init",
     "identity_line": "Prompt Engineer × Systems Thinker",
@@ -15,7 +15,7 @@
   "uk": {
     "lang": "uk",
     "locale": "uk_UA",
-    "title": "Євген Козловський — Prompt Engineer та системний мислитель | koztechie",
+    "title": "Євген Козловський | Prompt Engineer та системний мислитель — Архітектура ШІ та оркестрація LLM",
     "description": "Prompt Engineer × Systems Thinker. Структурую ідеї та спрямовую ШІ на створення програмного забезпечення.",
     "init_label": "ініціалізація",
     "identity_line": "Prompt Engineer × Systems Thinker",
@@ -28,7 +28,7 @@
   "es": {
     "lang": "es",
     "locale": "es_ES",
-    "title": "Eugene Kozlovsky — Prompt Engineer y pensador de sistemas | koztechie",
+    "title": "Eugene Kozlovsky | Prompt Engineer y pensador de sistemas — Arquitectura de IA y orquestación de LLM",
     "description": "Prompt Engineer × Systems Thinker. Estructuro ideas y dirijo IA para construir software que resuelve problemas reales.",
     "init_label": "inicio",
     "identity_line": "Prompt Engineer × Systems Thinker",
@@ -41,7 +41,7 @@
   "de": {
     "lang": "de",
     "locale": "de_DE",
-    "title": "Eugene Kozlovsky — Prompt Engineer & Systemdenker | koztechie",
+    "title": "Eugene Kozlovsky | Prompt Engineer & Systemdenker — KI-Architektur & LLM-Orchestrierung",
     "description": "Prompt Engineer × Systems Thinker. Ich strukturiere Ideen und leite KI, um Software zu bauen, die echte Probleme löst.",
     "init_label": "start",
     "identity_line": "Prompt Engineer × Systems Thinker",

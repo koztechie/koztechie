@@ -7,7 +7,7 @@
     "init_label": "init",
     "identity_line": "Prompt Engineer × Systems Thinker",
     "manifesto_label": "manifesto",
-    "manifesto": "I don't write code the old way. I architect systems, define constraints, and orchestrate AI to execute. Ten years of web administration taught me what breaks and why. Now I use that scar tissue as a spec. The result is software built at the intersection of radical realism and deliberate design — no bloat, no theater, no vanity metrics. Just working systems for people who need them.",
+    "manifesto": "I don't write code the old way. I architect systems, define constraints, and orchestrate AI to execute complex workflows. Ten years of deep-dive web administration and systems engineering taught me exactly what breaks, why it breaks, and how to prevent it. Now, I use that accumulated scar tissue as a rigourous specification for every project. My approach is rooted in radical realism and deliberate design—eliminating bloat, bypassing theater, and ignoring vanity metrics. I focus on building lean, high-performance systems that solve real-world problems with precision. By leveraging Large Language Models (LLMs) as a primary engine for development, I bridge the gap between abstract ideas and functional, production-ready software. This isn't just about automation; it's about structural integrity and the strategic application of intelligence to create tools that actually work for the people who need them most.",
     "social_label": "find me",
     "lang_switcher_label": "lang",
     "built_with": "built with 11ty"
@@ -20,7 +20,7 @@
     "init_label": "ініціалізація",
     "identity_line": "Prompt Engineer × Systems Thinker",
     "manifesto_label": "маніфест",
-    "manifesto": "Я не пишу код по-старому. Я проєктую системи, визначаю обмеження і оркеструю ШІ для виконання. Десять років веб-адміністрування навчили мене, що ламається і чому. Тепер я використовую цей досвід як специфікацію. Результат — програмне забезпечення на перетині радикального реалізму та навмисного дизайну: без роздутих функцій, без театральності, без марнославних метрик. Тільки робочі системи для тих, кому вони потрібні.",
+    "manifesto": "Я не пишу код по-старому. Я проєктую системи, визначаю обмеження і оркеструю ШІ для виконання складних робочих процесів. Десять років глибокого занурення у веб-адміністрування та системну інженерію навчили мене, що саме ламається, чому це стається і як цьому запобігти. Тепер я використовую цей накопичений досвід як сувору специфікацію для кожного проєкту. Мій підхід ґрунтується на радикальному реалізмі та навмисному дизайні — усуненні зайвого, відмові від театральності та ігноруванні марнославних метрик. Я зосереджуюсь на створенні легких, високопродуктивних систем, які точно вирішують реальні проблеми. Використовуючи великі мовні моделі (LLM) як основний двигун розробки, я долаю розрив між абстрактними ідеями та функціональним, готовим до експлуатації програмним забезпеченням. Це не просто автоматизація; це структурна цілісність і стратегічне застосування інтелекту для створення інструментів, які справді працюють для людей, яким вони найбільше потрібні. Моя мета — створювати рішення, які є водночас елегантними у своїй простоті та надзвичайно надійними в роботі.",
     "social_label": "знайди мене",
     "lang_switcher_label": "мова",
     "built_with": "зроблено з 11ty"
@@ -33,7 +33,7 @@
     "init_label": "inicio",
     "identity_line": "Prompt Engineer × Systems Thinker",
     "manifesto_label": "manifiesto",
-    "manifesto": "No escribo código a la antigua. Diseño sistemas, defino restricciones y orquesto IA para ejecutar. Diez años de administración web me enseñaron qué falla y por qué. Ahora uso ese tejido cicatricial como especificación. El resultado es software construido en la intersección del realismo radical y el diseño deliberado: sin bloat, sin teatro, sin métricas de vanidad. Solo sistemas que funcionan para quienes los necesitan.",
+    "manifesto": "No escribo código a la antigua. Diseño sistemas, defino restricciones y orquesto la IA para ejecutar flujos de trabajo complejos. Diez años de inmersión profunda en administración web e ingeniería de sistemas me enseñaron exactamente qué falla, por qué falla y cómo prevenirlo. Ahora, utilizo esa experiencia acumulada como una especificación rigurosa para cada proyecto. Mi enfoque se basa en el realismo radical y el diseño deliberado: eliminando el exceso, evitando el teatro e ignorando las métricas de vanidad. Me concentro en construir sistemas ligeros y de alto rendimiento que resuelven problemas del mundo real con precisión. Al aprovechar los Modelos de Lenguaje Extensos (LLM) como motor principal de desarrollo, cierro la brecha entre las ideas abstractas y el software funcional listo para producción. No se trata solo de automatización; se trata de integridad estructural y la aplicación estratégica de la inteligencia para crear herramientas que realmente funcionen para las personas que más las necesitan.",
     "social_label": "encuéntrame",
     "lang_switcher_label": "idioma",
     "built_with": "hecho con 11ty"
@@ -46,7 +46,7 @@
     "init_label": "start",
     "identity_line": "Prompt Engineer × Systems Thinker",
     "manifesto_label": "manifest",
-    "manifesto": "Ich schreibe keinen Code auf die alte Art. Ich entwerfe Systeme, definiere Constraints und orchestriere KI zur Ausführung. Zehn Jahre Web-Administration haben mir gezeigt, was bricht und warum. Jetzt nutze ich diese Erfahrung als Spezifikation. Das Ergebnis ist Software, die an der Schnittstelle von radikalem Realismus und bewusstem Design entsteht: kein Bloat, kein Theater, keine Vanity-Metriken. Nur funktionierende Systeme für Menschen, die unter Umständen Hilfe brauchen.",
+    "manifesto": "Ich schreibe keinen Code auf die alte Art. Ich entwerfe Systeme, definiere Constraints und orchestriere KI zur Ausführung komplexer Workflows. Zehn Jahre tiefgreifende Web-Administration und Systemtechnik haben mir gezeigt, was genau bricht, warum es bricht und wie man es verhindert. Jetzt nutze ich diese gesammelte Erfahrung als strenge Spezifikation für jedes Projekt. Mein Ansatz wurzelt in radikalem Realismus und bewusstem Design – ohne Bloat, ohne Theater und ohne Vanity-Metriken. Ich konzentriere mich darauf, schlanke, hochperformante Systeme zu bauen, die reale Probleme mit Präzision lösen. Durch den Einsatz von Large Language Models (LLMs) als primärem Entwicklungsmotor schließe ich die Lücke zwischen abstrakten Ideen und funktionaler, produktionsreifer Software. Hier geht es nicht nur um Automatisierung; es geht um strukturelle Integrität und die strategische Anwendung von Intelligenz, um Werkzeuge zu schaffen, die für die Menschen, die sie am dringendsten benötigen, tatsächlich funktionieren.",
     "social_label": "finde mich",
     "lang_switcher_label": "sprache",
     "built_with": "gebaut mit 11ty"

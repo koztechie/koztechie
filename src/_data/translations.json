@@ -1,0 +1,46 @@
+{
+  "en": {
+    "lang": "en",
+    "locale": "en_US",
+    "title": "koztechie — Eugene Kozlovsky",
+    "description": "Prompt Engineer × Systems Thinker. I structure ideas and direct AI to build software that solves real problems.",
+    "identity_line": "Prompt Engineer × Systems Thinker",
+    "manifesto": "I don't write code the old way. I architect systems, define constraints, and orchestrate AI to execute. Ten years of web administration taught me what breaks and why. Now I use that scar tissue as a spec. The result is software built at the intersection of radical realism and deliberate design — no bloat, no theater, no vanity metrics. Just working systems for people who need them.",
+    "social_label": "find me",
+    "lang_switcher_label": "lang",
+    "built_with": "built with 11ty"
+  },
+  "uk": {
+    "lang": "uk",
+    "locale": "uk_UA",
+    "title": "koztechie — Євген Козловський",
+    "description": "Prompt Engineer × Systems Thinker. Структурую ідеї та спрямовую ШІ на створення програмного забезпечення.",
+    "identity_line": "Prompt Engineer × Systems Thinker",
+    "manifesto": "Я не пишу код по-старому. Я проєктую системи, визначаю обмеження і оркеструю ШІ для виконання. Десять років веб-адміністрування навчили мене, що ламається і чому. Тепер я використовую цей досвід як специфікацію. Результат — програмне забезпечення на перетині радикального реалізму та навмисного дизайну: без роздутих функцій, без театральності, без марнославних метрик. Тільки робочі системи для тих, кому вони потрібні.",
+    "social_label": "знайди мене",
+    "lang_switcher_label": "мова",
+    "built_with": "зроблено з 11ty"
+  },
+  "es": {
+    "lang": "es",
+    "locale": "es_ES",
+    "title": "koztechie — Eugene Kozlovsky",
+    "description": "Prompt Engineer × Systems Thinker. Estructuro ideas y dirijo IA para construir software que resuelve problemas reales.",
+    "identity_line": "Prompt Engineer × Systems Thinker",
+    "manifesto": "No escribo código a la antigua. Diseño sistemas, defino restricciones y orquesto IA para ejecutar. Diez años de administración web me enseñaron qué falla y por qué. Ahora uso ese tejido cicatricial como especificación. El resultado es software construido en la intersección del realismo radical y el diseño deliberado: sin bloat, sin teatro, sin métricas de vanidad. Solo sistemas que funcionan para quienes los necesitan.",
+    "social_label": "encuéntrame",
+    "lang_switcher_label": "idioma",
+    "built_with": "hecho con 11ty"
+  },
+  "de": {
+    "lang": "de",
+    "locale": "de_DE",
+    "title": "koztechie — Eugene Kozlovsky",
+    "description": "Prompt Engineer × Systems Thinker. Ich strukturiere Ideen und leite KI, um Software zu bauen, die echte Probleme löst.",
+    "identity_line": "Prompt Engineer × Systems Thinker",
+    "manifesto": "Ich schreibe keinen Code auf die alte Art. Ich entwerfe Systeme, definiere Constraints und orchestriere KI zur Ausführung. Zehn Jahre Web-Administration haben mir gezeigt, was bricht und warum. Jetzt nutze ich diese Erfahrung als Spezifikation. Das Ergebnis ist Software, die an der Schnittstelle von radikalem Realismus und bewusstem Design entsteht: kein Bloat, kein Theater, keine Vanity-Metriken. Nur funktionierende Systeme für Menschen, die sie brauchen.",
+    "social_label": "finde mich",
+    "lang_switcher_label": "sprache",
+    "built_with": "gebaut mit 11ty"
+  }
+}

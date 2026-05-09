@@ -1,0 +1,67 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>{% if title %}{{ title }} — koztechie{% else %}koztechie — Eugene Kozlovsky{% endif %}</title>
+<meta name="description" content="{{ description | default('Eugene Kozlovsky — Prompt Engineer × Systems Thinker. Building with AI at the edge of what\'s possible.') }}">
+<meta name="author" content="Eugene Kozlovsky">
+<meta name="theme-color" content="#08090d">
+<meta name="color-scheme" content="dark">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://koztechie.pp.ua{{ page.url }}">
+<meta property="og:title" content="{% if title %}{{ title }} — koztechie{% else %}koztechie{% endif %}">
+<meta property="og:description" content="{{ description | default('Prompt Engineer × Systems Thinker.') }}">
+<meta property="og:image" content="https://koztechie.pp.ua/assets/img/og-cover.jpg">
+<meta property="og:locale" content="{{ locale | default('en_US') }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@koztechie">
+<meta name="twitter:creator" content="@koztechie">
+<meta name="twitter:title" content="koztechie — Eugene Kozlovsky">
+<meta name="twitter:description" content="Prompt Engineer × Systems Thinker.">
+<meta name="twitter:image" content="https://koztechie.pp.ua/assets/img/og-cover.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://koztechie.pp.ua{{ page.url }}">
+
+<!-- Alternate language versions -->
+<link rel="alternate" hreflang="en" href="https://koztechie.pp.ua/en/">
+<link rel="alternate" hreflang="uk" href="https://koztechie.pp.ua/uk/">
+<link rel="alternate" hreflang="es" href="https://koztechie.pp.ua/es/">
+<link rel="alternate" hreflang="de" href="https://koztechie.pp.ua/de/">
+<link rel="alternate" hreflang="x-default" href="https://koztechie.pp.ua/en/">
+
+<!-- Google Fonts: IBM Plex family — preconnect first -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Serif:wght@300;400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Serif:wght@300;400&display=swap" media="print" onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Serif:wght@300;400&display=swap">
+</noscript>
+
+<!-- Styles -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+<!-- Structured Data: Person -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Eugene Kozlovsky",
+  "alternateName": "koztechie",
+  "url": "https://koztechie.pp.ua",
+  "jobTitle": "Prompt Engineer & Systems Thinker",
+  "sameAs": [
+    "https://github.com/koztechie",
+    "https://x.com/koztechie",
+    "https://t.me/koztechie"
+  ]
+}
+</script>

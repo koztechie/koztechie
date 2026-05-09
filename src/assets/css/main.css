@@ -1,0 +1,18 @@
+/* KOZTECHIE — main.css
+   Single entry point. Import order is intentional and must not change.
+   ============================================================ */
+
+/* 1. Tokens — custom properties, must be first */
+@import url('tokens.css');
+
+/* 2. Reset — normalize browser defaults */
+@import url('reset.css');
+
+/* 3. Typography — text utility classes */
+@import url('typography.css');
+
+/* 4. Layout — grid, wrapper, structural blocks, component-level layout */
+@import url('layout.css');
+
+/* 5. Glitch & motion — animations, reveal, cursor */
+@import url('glitch.css');

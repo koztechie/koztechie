@@ -1,0 +1,85 @@
+/* KOZTECHIE — GLITCH EFFECT */
+
+.glitch-target {
+  position: relative;
+  display: inline-block;
+}
+
+.glitch-target::before,
+.glitch-target::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.glitch-target::before {
+  color: var(--color-cold-500);
+  clip-path: polygon(0 30%, 100% 30%, 100% 50%, 0 50%);
+  transform: translateX(-2px);
+  opacity: 0;
+}
+
+.glitch-target::after {
+  color: var(--color-warm-500);
+  clip-path: polygon(0 60%, 100% 60%, 100% 75%, 0 75%);
+  transform: translateX(2px);
+  opacity: 0;
+}
+
+/* Active glitch state triggered by JS adding .is-glitching */
+.is-glitching .glitch-target::before {
+  animation: glitch-slice-before 200ms steps(2) forwards;
+}
+
+.is-glitching .glitch-target::after {
+  animation: glitch-slice-after 200ms steps(2) forwards;
+}
+
+@keyframes glitch-slice-before {
+  0%   { opacity: 0; transform: translateX(-2px); }
+  20%  { opacity: 1; transform: translateX(3px); }
+  40%  { opacity: 0; transform: translateX(-4px); }
+  60%  { opacity: 1; transform: translateX(2px); }
+  80%  { opacity: 0; transform: translateX(-1px); }
+  100% { opacity: 0; transform: translateX(0); }
+}
+
+@keyframes glitch-slice-after {
+  0%   { opacity: 0; transform: translateX(2px); }
+  25%  { opacity: 1; transform: translateX(-3px); }
+  50%  { opacity: 0; transform: translateX(4px); }
+  75%  { opacity: 1; transform: translateX(-2px); }
+  100% { opacity: 0; transform: translateX(0); }
+}
+
+/* --- Cursor blink --- */
+.cursor-blink {
+  display: inline-block;
+  color: var(--color-cold-500);
+  animation: cursor-blink 1s step-end infinite;
+  margin-left: 2px;
+  font-weight: 300;
+}
+
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* --- Staggered reveal --- */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity var(--duration-slow) var(--ease-out),
+    transform var(--duration-slow) var(--ease-out);
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}

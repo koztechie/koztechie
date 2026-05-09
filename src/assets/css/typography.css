@@ -1,0 +1,62 @@
+/* KOZTECHIE — TYPOGRAPHY */
+
+.t-label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-xwide);
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.t-name {
+  font-family: var(--font-mono);
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  letter-spacing: var(--tracking-tight);
+  line-height: var(--leading-tight);
+  color: var(--color-text-primary);
+}
+
+.t-identity {
+  font-family: var(--font-sans);
+  font-size: var(--text-lg);
+  font-weight: 300;
+  letter-spacing: var(--tracking-wide);
+  color: var(--color-cold-500);
+}
+
+.t-manifesto {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: 400;
+  line-height: var(--leading-loose);
+  color: var(--color-text-secondary);
+}
+
+.t-accent {
+  color: var(--color-cold-500);
+}
+
+.t-warm {
+  color: var(--color-warm-500);
+}
+
+.t-mono {
+  font-family: var(--font-mono);
+}
+
+/* --- Font loading performance: size-adjust prevents CLS --- */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('IBM Plex Mono');
+  size-adjust: 100%;
+}
+
+/* Critical text visible immediately before font loads */
+.identity__name,
+.t-manifesto {
+  font-synthesis: none;
+}

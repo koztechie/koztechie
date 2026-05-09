@@ -414,7 +414,7 @@ body::before {
 }
 
 .name-second-line .glitch-target {
-  display: inline;
+  display: inline-block;
 }
 
 /* --- Photo-derived ambient: body duotone atmosphere --- */

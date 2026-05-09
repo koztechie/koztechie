@@ -58,11 +58,12 @@
 
 /* --- Cursor blink --- */
 .cursor-blink {
-  display: inline-block;
+  display: inline;
   color: var(--color-cold-500);
   animation: cursor-blink 1s step-end infinite;
-  margin-left: 2px;
+  margin-left: 1px;
   font-weight: 300;
+  vertical-align: baseline;
 }
 
 @keyframes cursor-blink {

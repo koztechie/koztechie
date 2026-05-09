@@ -12,25 +12,29 @@
   font-family: var(--font-mono);
   font-size: var(--text-4xl);
   font-weight: 700;
-  letter-spacing: var(--tracking-tight);
-  line-height: var(--leading-tight);
+  letter-spacing: -0.03em;
+  line-height: 1.0;
   color: var(--color-text-primary);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .t-identity {
   font-family: var(--font-sans);
   font-size: var(--text-lg);
   font-weight: 300;
-  letter-spacing: var(--tracking-wide);
+  letter-spacing: 0.06em;
   color: var(--color-cold-500);
+  text-transform: uppercase;
 }
 
 .t-manifesto {
   font-family: var(--font-sans);
   font-size: var(--text-base);
   font-weight: 400;
-  line-height: var(--leading-loose);
+  line-height: 1.85;
   color: var(--color-text-secondary);
+  max-width: 52ch;
 }
 
 .t-accent {

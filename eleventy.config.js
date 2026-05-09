@@ -19,6 +19,12 @@ export default function(eleventyConfig) {
     return d.toISOString();
   });
 
+  // Shortcode для отримання перекладів за мовою
+  eleventyConfig.addFilter("t", function(lang) {
+    // translations доступні через глобальний data
+    return this.ctx?.translations?.[lang] || {};
+  });
+
   // Set template formats
   return {
     templateFormats: ["njk", "html", "md"],

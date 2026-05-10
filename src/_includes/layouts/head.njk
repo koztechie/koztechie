@@ -49,19 +49,50 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@id": "https://koztechie.pp.ua/#person",
   "@type": "Person",
+  "@id": "https://koztechie.pp.ua/#person",
+  "additionalType": [
+    "https://www.wikidata.org/wiki/Q8246794",
+    "https://www.wikidata.org/wiki/Q5482740"
+  ],
   "name": "Eugene Kozlovsky",
   "givenName": "Eugene",
   "familyName": "Kozlovsky",
   "gender": "https://schema.org/Male",
-  "alternateName": [
-    "koztechie",
-    "Євгеній Козловський",
-    "Yevhenii Kozlovskyi"
+  "nationality": {
+    "@type": "Country",
+    "name": "Ukraine",
+    "sameAs": "https://en.wikipedia.org/wiki/Ukraine"
+  },
+  "alternateName": ["koztechie", "Євгеній Козловський", "Yevhenii Kozlovskyi"],
+  "description": "Ukrainian software developer and indie hacker specializing in SEO automation and AI-assisted web development. Builds tools under the koztechie brand.",
+  "disambiguatingDescription": "Ukrainian indie hacker, koztechie brand.",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "GitHub",
+      "value": "koztechie",
+      "url": "https://github.com/koztechie"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Credly",
+      "value": "koztechie",
+      "url": "https://www.credly.com/users/koztechie"
+    }
   ],
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://koztechie.pp.ua/assets/img/eugene-kozlovsky.jpg",
+    "contentUrl": "https://koztechie.pp.ua/assets/img/eugene-kozlovsky.jpg",
+    "width": 1024,
+    "height": 1024,
+    "name": "Eugene Kozlovsky — koztechie"
+  },
   "url": "https://koztechie.pp.ua",
-  "jobTitle": "Prompt Engineer & Systems Thinker",
+  "jobTitle": "Vibe Coder & Systems Architect",
+  "isicV4": "6201",
+  "naics": "541511",
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Vibe Coder & Systems Architect",
@@ -71,133 +102,120 @@
     },
     "skills": "AI orchestration, SEO automation, systems architecture, prompt engineering"
   },
-  "sameAs": [
-    "https://github.com/koztechie",
-    "https://x.com/koztechie",
-    "https://t.me/koztechie",
-    "https://facebook.com/koztechie"
+  "skills": [
+    { "@type": "DefinedTerm", "name": "Search engine optimization", "@id": "https://en.wikipedia.org/wiki/Search_engine_optimization" },
+    { "@type": "DefinedTerm", "name": "Prompt engineering", "@id": "https://en.wikipedia.org/wiki/Prompt_engineering" },
+    { "@type": "DefinedTerm", "name": "Web scraping", "@id": "https://en.wikipedia.org/wiki/Web_scraping" }
   ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressCountry": "UA"
-  },
-  "knowsAbout": [
-    "AI-assisted software development",
-    "SEO automation",
-    "Web architecture",
-    "Systems design"
+  "owns": [
+    {
+      "@type": "WebSite",
+      "name": "koztechie",
+      "url": "https://koztechie.pp.ua",
+      "@id": "https://koztechie.pp.ua/#website"
+    }
+  ],
+  "hasCertification": [
+    { "@type": "Certification", "name": "Google Data Analytics Certificate", "issuedBy": { "@type": "Organization", "name": "Google" }, "url": "https://www.coursera.org/account/accomplishments/professional-cert/2R5LK2D8QQUH", "datePublished": "2023-05-14" },
+    { "@type": "Certification", "name": "Google Digital Marketing & E-commerce Certificate", "issuedBy": { "@type": "Organization", "name": "Google" }, "url": "https://www.coursera.org/account/accomplishments/professional-cert/UA674EFRTGVZ", "datePublished": "2023-05-16" },
+    { "@type": "Certification", "name": "Google IT Support Certificate", "issuedBy": { "@type": "Organization", "name": "Google" }, "url": "https://www.coursera.org/account/accomplishments/professional-cert/EGQ3PFCG7LNZ", "datePublished": "2024-04-28" },
+    { "@type": "Certification", "name": "Google Cybersecurity Certificate", "issuedBy": { "@type": "Organization", "name": "Google" }, "url": "https://www.coursera.org/account/accomplishments/professional-cert/UPGZKVGUG2AW", "datePublished": "2024-05-25" },
+    { "@type": "Certification", "name": "AI For Everyone", "issuedBy": { "@type": "Organization", "name": "DeepLearning.AI" }, "url": "https://www.coursera.org/account/accomplishments/verify/QSPGJS8XT4AD", "datePublished": "2024-08-25" },
+    { "@type": "Certification", "name": "Introduction to Programming", "issuedBy": { "@type": "EducationalOrganization", "name": "University of Helsinki" }, "url": "https://certificates.mooc.fi/validate/0hhw1yi32u2p", "datePublished": "2023-11-10" },
+    { "@type": "Certification", "name": "Introduction to Cyber Security", "issuedBy": { "@type": "EducationalOrganization", "name": "University of Helsinki" }, "url": "https://certificates.mooc.fi/validate/njoa1neohbm", "datePublished": "2023-12-17" },
+    { "@type": "Certification", "name": "Introduction to Cybersecurity", "issuedBy": { "@type": "Organization", "name": "Cisco Networking Academy" }, "url": "https://www.credly.com/badges/32a7a7ad-c1a4-436d-9eff-ff910980933d/public_url", "datePublished": "2024-01-03" },
+    { "@type": "Certification", "name": "Technical SEO Certification", "issuedBy": { "@type": "Organization", "name": "Blue Array Academy" }, "url": "https://www.bluearrayacademy.com/certificates/y3hxh2sjkh", "datePublished": "2022-07-26" },
+    { "@type": "Certification", "name": "What is Data Science", "issuedBy": { "@type": "Organization", "name": "IBM" }, "url": "https://www.coursera.org/account/accomplishments/verify/8TQTKWC3ZY2S", "datePublished": "2024-07-09" }
   ],
   "brand": {
     "@type": "Brand",
     "name": "koztechie",
     "url": "https://koztechie.pp.ua"
   },
+  "publishingPrinciples": "https://koztechie.pp.ua/en/#manifesto",
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "professional inquiries",
     "url": "https://t.me/koztechie"
   },
-  "hasCertification": [
+  "workLocation": {
+    "@type": "ContactPoint",
+    "contactType": "remote work",
+    "availableLanguage": [
+      { "@type": "Language", "name": "Ukrainian" },
+      { "@type": "Language", "name": "English" }
+    ]
+  },
+  "potentialAction": [
     {
-      "@type": "Certification",
-      "name": "Google Data Analytics Certificate",
-      "issuedBy": {
-        "@type": "Organization",
-        "name": "Google",
-        "sameAs": "https://www.coursera.org/account/accomplishments/professional-cert/2R5LK2D8QQUH"
-      },
-      "datePublished": "2023-05-14"
-    },
-    {
-      "@type": "Certification",
-      "name": "Google Digital Marketing & E-commerce Certificate",
-      "issuedBy": {
-        "@type": "Organization",
-        "name": "Google",
-        "sameAs": "https://www.coursera.org/account/accomplishments/professional-cert/UA674EFRTGVZ"
-      },
-      "datePublished": "2023-05-16"
-    },
-    {
-      "@type": "Certification",
-      "name": "Google IT Support Certificate",
-      "issuedBy": {
-        "@type": "Organization",
-        "name": "Google",
-        "sameAs": "https://www.coursera.org/account/accomplishments/professional-cert/EGQ3PFCG7LNZ"
-      },
-      "datePublished": "2024-04-28"
-    },
-    {
-      "@type": "Certification",
-      "name": "Google Cybersecurity Certificate",
-      "issuedBy": {
-        "@type": "Organization",
-        "name": "Google",
-        "sameAs": "https://www.coursera.org/account/accomplishments/professional-cert/UPGZKVGUG2AW"
-      },
-      "datePublished": "2024-05-25"
-    },
-    {
-      "@type": "Certification",
-      "name": "AI For Everyone",
-      "issuedBy": {
-        "@type": "Organization",
-        "name": "DeepLearning.AI",
-        "sameAs": "https://www.coursera.org/account/accomplishments/verify/QSPGJS8XT4AD"
-      },
-      "datePublished": "2024-08-25"
-    },
-    {
-      "@type": "Certification",
-      "name": "Introduction to Programming",
-      "issuedBy": {
-        "@type": "EducationalOrganization",
-        "name": "University of Helsinki",
-        "sameAs": "https://certificates.mooc.fi/validate/0hhw1yi32u2p"
-      },
-      "datePublished": "2023-11-10"
-    },
-    {
-      "@type": "Certification",
-      "name": "Introduction to Cyber Security",
-      "issuedBy": {
-        "@type": "EducationalOrganization",
-        "name": "University of Helsinki",
-        "sameAs": "https://certificates.mooc.fi/validate/njoa1neohbm"
-      },
-      "datePublished": "2023-12-17"
-    },
-    {
-      "@type": "Certification",
-      "name": "Introduction to Cybersecurity",
-      "issuedBy": {
-        "@type": "Organization",
-        "name": "Cisco Networking Academy",
-        "sameAs": "https://www.credly.com/badges/32a7a7ad-c1a4-436d-9eff-ff910980933d/public_url"
-      },
-      "datePublished": "2024-01-03"
-    },
-    {
-      "@type": "Certification",
-      "name": "Technical SEO Certification",
-      "issuedBy": {
-        "@type": "Organization",
-        "name": "Blue Array Academy",
-        "sameAs": "https://www.bluearrayacademy.com/certificates/y3hxh2sjkh"
-      },
-      "datePublished": "2022-07-26"
-    },
-    {
-      "@type": "Certification",
-      "name": "What is Data Science",
-      "issuedBy": {
-        "@type": "Organization",
-        "name": "IBM",
-        "sameAs": "https://www.coursera.org/account/accomplishments/verify/8TQTKWC3ZY2S"
-      },
-      "datePublished": "2024-07-09"
+      "@type": "ContactAction",
+      "name": "Contact via Telegram",
+      "target": "https://t.me/koztechie"
     }
+  ],
+  "knowsAbout": [
+    { "@type": "Thing", "name": "Search engine optimization", "@id": "https://en.wikipedia.org/wiki/Search_engine_optimization" },
+    { "@type": "Thing", "name": "Artificial intelligence", "@id": "https://en.wikipedia.org/wiki/Artificial_intelligence" },
+    { "@type": "Thing", "name": "Web development", "@id": "https://en.wikipedia.org/wiki/Web_development" },
+    { "@type": "Thing", "name": "Cybersecurity", "@id": "https://en.wikipedia.org/wiki/Computer_security" },
+    { "@type": "Thing", "name": "Data analysis", "@id": "https://en.wikipedia.org/wiki/Data_analysis" }
+  ],
+  "knowsLanguage": [
+    { "@type": "Language", "name": "Ukrainian", "alternateName": "uk" },
+    { "@type": "Language", "name": "English", "alternateName": "en" }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "UA"
+  },
+  "sameAs": [
+    "https://github.com/koztechie",
+    "https://x.com/koztechie",
+    "https://t.me/koztechie",
+    "https://facebook.com/koztechie"
   ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://koztechie.pp.ua/en/",
+  "url": "https://koztechie.pp.ua/en/",
+  "name": "koztechie — Eugene Kozlovsky",
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://koztechie.pp.ua/#website",
+    "url": "https://koztechie.pp.ua",
+    "name": "koztechie"
+  },
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://koztechie.pp.ua/#person"
+  },
+  "accountablePerson": {
+    "@type": "Person",
+    "@id": "https://koztechie.pp.ua/#person"
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://koztechie.pp.ua/#person"
+  },
+  "creator": {
+    "@type": "Person",
+    "@id": "https://koztechie.pp.ua/#person"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "koztechie",
+        "item": "https://koztechie.pp.ua/en/"
+      }
+    ]
+  }
 }
 </script>

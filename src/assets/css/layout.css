@@ -236,6 +236,63 @@ body::before {
   margin-top: var(--space-1);
 }
 
+/* --- Identity Portrait --- */
+.identity__portrait {
+  position: relative;
+  width: clamp(120px, 25vw, 180px);
+  aspect-ratio: 1 / 1;
+  margin-bottom: var(--space-8);
+  z-index: 1;
+}
+
+.identity__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.4) contrast(1.1) brightness(0.9);
+  transition: filter var(--duration-normal) var(--ease-out);
+  border: 1px solid var(--color-border);
+}
+
+.identity__portrait:hover .identity__img {
+  filter: grayscale(0) contrast(1.05) brightness(1);
+}
+
+.identity__frame {
+  position: absolute;
+  inset: -8px;
+  border: 1px solid transparent;
+  background: 
+    linear-gradient(to right, var(--color-cold-500) 1px, transparent 1px) 0 0,
+    linear-gradient(to bottom, var(--color-cold-500) 1px, transparent 1px) 0 0,
+    linear-gradient(to left, var(--color-warm-500) 1px, transparent 1px) 100% 100%,
+    linear-gradient(to top, var(--color-warm-500) 1px, transparent 1px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  opacity: 0.4;
+  transition: opacity var(--duration-normal) var(--ease-out), inset var(--duration-normal) var(--ease-out);
+  pointer-events: none;
+}
+
+.identity__portrait:hover .identity__frame {
+  opacity: 1;
+  inset: -12px;
+}
+
+.identity__portrait::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  box-shadow: 0 0 var(--glow-blur-md) var(--color-glow-cold);
+  opacity: 0;
+  transition: opacity var(--duration-normal) var(--ease-out);
+  z-index: -1;
+}
+
+.identity__portrait:hover::after {
+  opacity: 0.3;
+}
+
 /* --- Manifesto block --- */
 .manifesto {
   display: flex;

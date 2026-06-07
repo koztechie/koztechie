@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <title>{{ t.title | default('koztechie — Eugene Kozlovsky') }}</title>
-<meta name="description" content="{{ t.description | default('Eugene Kozlovsky — Prompt Engineer × Systems Thinker. Building with AI at the edge of what\'s possible.') }}">
+<meta name="description" content="{{ t.description | default('Eugene Kozlovsky — E-Commerce Ecosystem Architect & AI-Assisted Automation Specialist from Kyiv, Ukraine.') }}">
 <meta name="author" content="Eugene Kozlovsky">
 <meta name="theme-color" content="#08090d">
 <meta name="color-scheme" content="dark">
@@ -12,7 +12,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://koztechie.pp.ua{{ page.url }}">
 <meta property="og:title" content="{{ t.title | default('koztechie — Eugene Kozlovsky') }}">
-<meta property="og:description" content="{{ t.description | default('Prompt Engineer × Systems Thinker.') }}">
+<meta property="og:description" content="{{ t.description | default('E-Commerce Ecosystem Architect & AI-Assisted Automation Specialist from Kyiv, Ukraine.') }}">
 <meta property="og:image" content="https://koztechie.pp.ua/assets/img/og-cover.jpg">
 <meta property="og:locale" content="{{ t.locale | default('en_US') }}">
 
@@ -21,7 +21,7 @@
 <meta name="twitter:site" content="@koztechie">
 <meta name="twitter:creator" content="@koztechie">
 <meta name="twitter:title" content="{{ t.title | default('koztechie — Eugene Kozlovsky') }}">
-<meta name="twitter:description" content="{{ t.description | default('Prompt Engineer × Systems Thinker.') }}">
+<meta name="twitter:description" content="{{ t.description | default('E-Commerce Ecosystem Architect & AI-Assisted Automation Specialist from Kyiv, Ukraine.') }}">
 <meta name="twitter:image" content="https://koztechie.pp.ua/assets/img/og-cover.jpg">
 
 <!-- Canonical -->
@@ -34,6 +34,11 @@
 <link rel="alternate" hreflang="de" href="https://koztechie.pp.ua/de/">
 <link rel="alternate" hreflang="x-default" href="https://koztechie.pp.ua/en/">
 
+<!-- rel=me identity signals -->
+<link rel="me" href="https://github.com/koztechie">
+<link rel="me" href="https://x.com/koztechie">
+<link rel="me" href="https://facebook.com/koztechie">
+
 <!-- Google Fonts: IBM Plex family -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +50,7 @@
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
 
-<!-- Structured Data: Person -->
+<!-- Schema.org: Person (єдиний на весь сайт, мова-незалежний) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -58,7 +63,7 @@
     "koztechie"
   ],
   "jobTitle": "E-Commerce Ecosystem Architect & AI-Assisted Automation Specialist",
-  "description": "Фахівець з побудови та інтеграції e-commerce екосистем із застосуванням ШІ-інструментів. Понад 13 років у веб-адмініструванні, SEO та електронній комерції.",
+  "description": "Ukrainian specialist in building and integrating e-commerce ecosystems using AI-assisted tools. Over 13 years in web administration, SEO, and e-commerce.",
   "url": "https://koztechie.pp.ua/",
   "image": {
     "@type": "ImageObject",
@@ -139,39 +144,44 @@
     "https://github.com/koztechie",
     "https://x.com/koztechie",
     "https://facebook.com/koztechie",
-    "https://t.me/koztechie",
-    "https://koztechie.pp.ua/en/",
-    "https://koztechie.pp.ua/uk/"
+    "https://t.me/koztechie"
   ]
 }
 </script>
 
+<!-- Schema.org: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://koztechie.pp.ua/#website",
+  "url": "https://koztechie.pp.ua/",
+  "name": "koztechie",
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://koztechie.pp.ua/#person"
+  }
+}
+</script>
+
+<!-- Schema.org: WebPage (динамічний — унікальний для кожної мовної версії) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://koztechie.pp.ua/en/",
-  "url": "https://koztechie.pp.ua/en/",
-  "name": "koztechie — Eugene Kozlovsky",
+  "@id": "https://koztechie.pp.ua{{ page.url }}#webpage",
+  "url": "https://koztechie.pp.ua{{ page.url }}",
+  "name": "{{ t.title | default('koztechie — Eugene Kozlovsky') }}",
+  "inLanguage": "{{ lang | default('en') }}",
   "isPartOf": {
     "@type": "WebSite",
-    "@id": "https://koztechie.pp.ua/#website",
-    "url": "https://koztechie.pp.ua",
-    "name": "koztechie"
+    "@id": "https://koztechie.pp.ua/#website"
   },
   "mainEntity": {
     "@type": "Person",
     "@id": "https://koztechie.pp.ua/#person"
   },
-  "accountablePerson": {
-    "@type": "Person",
-    "@id": "https://koztechie.pp.ua/#person"
-  },
   "author": {
-    "@type": "Person",
-    "@id": "https://koztechie.pp.ua/#person"
-  },
-  "creator": {
     "@type": "Person",
     "@id": "https://koztechie.pp.ua/#person"
   },
@@ -182,7 +192,7 @@
         "@type": "ListItem",
         "position": 1,
         "name": "koztechie",
-        "item": "https://koztechie.pp.ua/en/"
+        "item": "https://koztechie.pp.ua{{ page.url }}"
       }
     ]
   }

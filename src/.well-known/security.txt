@@ -1,0 +1,9 @@
+# Security.txt for koztechie.pp.ua
+# RFC 9116 compliant
+
+Contact: mailto:security@koztechie.pp.ua
+Contact: https://t.me/koztechie
+Expires: 2027-06-19T00:00:00.000Z
+Canonical: https://koztechie.pp.ua/.well-known/security.txt
+Preferred-Languages: en, uk, es, de
+Acknowledgments: https://koztechie.pp.ua

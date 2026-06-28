@@ -1,0 +1,63 @@
+<section class="credentials" aria-labelledby="links-label">
+  <div style="display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-4); flex-wrap: wrap;">
+    <h2 class="t-label credentials__label" id="links-label" style="margin-bottom: 0;">// {{ t.links_title | default('Contacts') }}</h2>
+    <a href="/{{ lang }}/" class="t-label social__link" aria-label="{{ t.home_label | default('home') }}">// {{ t.home_label | default('home') }}</a>
+  </div>
+  <div class="accent-rule" aria-hidden="true"></div>
+  <ul class="credentials__list" role="list">
+    <li class="credentials__item">
+      <a class="credentials__link" href="mailto:dev@koztechie.pp.ua" rel="me">
+        <div class="credentials__issuer-group">
+          <span class="credentials__issuer">Email</span>
+        </div>
+        <span class="credentials__dots" aria-hidden="true"></span>
+        <span class="credentials__name">dev@koztechie.pp.ua</span>
+      </a>
+    </li>
+    <li class="credentials__item">
+      <a class="credentials__link" href="https://t.me/koztechie" target="_blank" rel="me noopener noreferrer">
+        <div class="credentials__issuer-group">
+          <span class="credentials__issuer">Telegram</span>
+        </div>
+        <span class="credentials__dots" aria-hidden="true"></span>
+        <span class="credentials__name">@koztechie</span>
+      </a>
+    </li>
+    <li class="credentials__item">
+      <a class="credentials__link" href="https://github.com/koztechie" target="_blank" rel="me noopener noreferrer">
+        <div class="credentials__issuer-group">
+          <span class="credentials__issuer">GitHub</span>
+        </div>
+        <span class="credentials__dots" aria-hidden="true"></span>
+        <span class="credentials__name">@koztechie</span>
+      </a>
+    </li>
+    <li class="credentials__item">
+      <a class="credentials__link" href="https://www.youtube.com/@koztechie" target="_blank" rel="me noopener noreferrer">
+        <div class="credentials__issuer-group">
+          <span class="credentials__issuer">YouTube</span>
+        </div>
+        <span class="credentials__dots" aria-hidden="true"></span>
+        <span class="credentials__name">@koztechie</span>
+      </a>
+    </li>
+    <li class="credentials__item">
+      <a class="credentials__link" href="https://x.com/koztechie" target="_blank" rel="me noopener noreferrer">
+        <div class="credentials__issuer-group">
+          <span class="credentials__issuer">X (Twitter)</span>
+        </div>
+        <span class="credentials__dots" aria-hidden="true"></span>
+        <span class="credentials__name">@koztechie</span>
+      </a>
+    </li>
+    <li class="credentials__item">
+      <a class="credentials__link" href="https://dev.to/koztechie" target="_blank" rel="me noopener noreferrer">
+        <div class="credentials__issuer-group">
+          <span class="credentials__issuer">Dev.to</span>
+        </div>
+        <span class="credentials__dots" aria-hidden="true"></span>
+        <span class="credentials__name">@koztechie</span>
+      </a>
+    </li>
+  </ul>
+</section>

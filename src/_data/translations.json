@@ -1,5 +1,6 @@
 {
   "en": {
+    "links_title": "Contacts",
     "lang": "en",
     "locale": "en_US",
     "first_name": "Eugene",
@@ -7,7 +8,9 @@
     "title": "Eugene Kozlovsky | Vibe Coder & Systems Architect",
     "description": "Vibe Coder × Systems Architect. I turn ideas into clear business logic and orchestrate AI to build apps that save the most valuable resource — your time and mine.",
     "init_label": "start",
-    "identity_line": "Vibe Coder × Systems Architect",
+    "identity_label": "identity",
+    "home_label": "home",
+    "identity_line": "AI-ASSISTED DIGITAL SOLUTIONS DEVELOPER",
     "manifesto_label": "manifesto",
     "manifesto": "Routine coding is in the past. Instead, I design the architecture, set strict boundaries, and delegate execution to AI. Over 13 years in web administration, SEO, and e-commerce, I’ve mastered the anatomy of digital failures. Now, this experience serves as the foundation for my specifications. My philosophy: zero overengineering and no technological narcissism. Only refined apps that solve real problems and inevitably reach production.",
     "credentials_label": "credentials",
@@ -16,6 +19,7 @@
     "built_with": "on 11ty architecture"
   },
   "uk": {
+    "links_title": "Контакти",
     "lang": "uk",
     "locale": "uk_UA",
     "first_name": "Євгеній",
@@ -23,7 +27,9 @@
     "title": "Євгеній Козловський | Вайбкодер і системний архітектор",
     "description": "Вайбкодер × Системний архітектор. Перетворюю ідеї на чітку бізнес-логіку та оркеструю ШІ, аби створювати застосунки, що бережуть найцінніше — ваш і мій час.",
     "init_label": "старт",
-    "identity_line": "Вайбкодер × Системний архітектор",
+    "identity_label": "ідентичність",
+    "home_label": "головна",
+    "identity_line": "AI-ASSISTED РОЗРОБНИК ЦИФРОВИХ РІШЕНЬ",
     "manifesto_label": "маніфест",
     "manifesto": "Рутинний кодинг — у минулому. Натомість я проєктую архітектуру, встановлюю жорсткі межі та делегую реалізацію штучному інтелекту. За 13 років у вебадмініструванні, SEO та e-commerce я досконало вивчив анатомію цифрових збоїв. Тепер цей досвід — фундамент для моїх специфікацій. Моя філософія: нуль оверінжинірингу та жодного технологічного нарцисизму. Тільки вивірені застосунки, що розв’язують реальні завдання і неминуче доходять до продакшену.",
     "credentials_label": "досягнення",
@@ -32,6 +38,7 @@
     "built_with": "на архітектурі 11ty"
   },
   "es": {
+    "links_title": "Contactos",
     "lang": "es",
     "locale": "es_ES",
     "first_name": "Eugene",
@@ -39,7 +46,9 @@
     "title": "Eugene Kozlovsky | Vibe Coder y Arquitecto de Sistemas",
     "description": "Vibe Coder × Arquitecto de Sistemas. Transformo ideas en lógica de negocio clara y orquesto a la IA para crear apps que protegen lo más valioso: su tiempo y el mío.",
     "init_label": "inicio",
-    "identity_line": "Vibe Coder × Arquitecto de Sistemas",
+    "identity_label": "identidad",
+    "home_label": "inicio",
+    "identity_line": "DESARROLLADOR DE SOLUCIONES DIGITALES ASISTIDO POR IA",
     "manifesto_label": "manifiesto",
     "manifesto": "El código rutinario es cosa del pasado. En su lugar, diseño la arquitectura, establezco límites estrictos y delego la ejecución a la IA. En 13 años de administración web, SEO y comercio electrónico, he estudiado a fondo la anatomía de los fallos digitales. Hoy, esta experiencia es la base de mis especificaciones. Mi filosofía: cero sobreingeniería y nada de narcisismo tecnológico. Solo aplicaciones depuradas que resuelven problemas reales e inevitablemente llegan a producción.",
     "credentials_label": "credenciales",
@@ -48,6 +57,7 @@
     "built_with": "sobre arquitectura 11ty"
   },
   "de": {
+    "links_title": "Kontakte",
     "lang": "de",
     "locale": "de_DE",
     "first_name": "Eugene",
@@ -55,7 +65,9 @@
     "title": "Eugene Kozlovsky | Vibe Coder & Systemarchitekt",
     "description": "Vibe Coder × Systemarchitekt. Ich verwandle Ideen in klare Geschäftslogik und orchestriere KI, um Apps zu bauen, die das Wertvollste schonen – Ihre und meine Zeit.",
     "init_label": "start",
-    "identity_line": "Vibe Coder × Systemarchitekt",
+    "identity_label": "identität",
+    "home_label": "startseite",
+    "identity_line": "KI-UNTERSTÜTZTER ENTWICKLER DIGITALER LÖSUNGEN",
     "manifesto_label": "manifest",
     "manifesto": "Routinemäßiges Coden gehört der Vergangenheit an. Stattdessen entwerfe ich die Architektur, setze strikte Grenzen und delegiere die Ausführung an die KI. In 13 Jahren Web-Administration, SEO und E-Commerce habe ich die Anatomie digitaler Ausfälle bis ins Detail studiert. Heute bildet diese Erfahrung das Fundament meiner Spezifikationen. Meine Philosophie: Null Overengineering und kein technologischer Narzissmus. Nur präzise abgestimmte Apps, die echte Probleme lösen und unweigerlich in Produktion gehen.",
     "credentials_label": "zertifikate",

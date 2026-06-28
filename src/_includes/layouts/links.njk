@@ -16,7 +16,6 @@
     <rect width="100%" height="100%" fill="transparent" filter="url(#noise-filter)"/>
   </svg>
 
-  <!-- Decorative glow strips -->
   <div class="glow-strip glow-strip--left" aria-hidden="true"></div>
   <div class="glow-strip glow-strip--right" aria-hidden="true"></div>
 
@@ -27,23 +26,15 @@
         {% include "components/identity.njk" %}
       </div>
 
-      <div class="block--manifesto" id="manifesto" data-reveal="1">
-        {% include "components/manifesto.njk" %}
+      <div class="glow-divider" aria-hidden="true"></div>
+
+      <div class="block--credentials" data-reveal="1">
+        {% include "components/links.njk" %}
       </div>
 
       <div class="glow-divider" aria-hidden="true"></div>
 
-      <div class="block--credentials" data-reveal="2">
-        {% include "components/credentials.njk" %}
-      </div>
-
-      <div class="glow-divider" aria-hidden="true"></div>
-
-      <div class="block--social" data-reveal="3">
-        {% include "components/social.njk" %}
-      </div>
-
-      <div class="block--lang" data-reveal="4">
+      <div class="block--lang" data-reveal="2">
         {% include "components/lang-switcher.njk" %}
       </div>
 
@@ -58,7 +49,6 @@
     </footer>
   </div>
 
-  <!-- Scripts -->
   <script src="/assets/js/glitch.js" defer></script>
   <script src="/assets/js/cursor.js" defer></script>
   <script src="/assets/js/lang-switcher.js" defer></script>

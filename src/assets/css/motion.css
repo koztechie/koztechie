@@ -1,0 +1,33 @@
+/* KOZTECHIE — MOTION */
+
+/* --- Staggered reveal --- */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 200ms ease-out, transform 200ms ease-out;
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- PCB Effects --- */
+.pcb-hover {
+  transition: border-color 100ms ease-out, color 100ms ease-out;
+}
+
+.pcb-hover:hover {
+  border-color: var(--color-signal);
+}
+
+.pcb-focus:focus-visible {
+  outline: 2px solid var(--color-signal);
+  outline-offset: 2px;
+}
+
+/* --- Basic Fade In --- */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
